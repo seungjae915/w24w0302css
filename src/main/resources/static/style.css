@@ -1,0 +1,25 @@
+div {
+    background-color : #A8D1D1;
+    padding: 1rem;
+}
+
+.song {
+    background-color : #FD8A8A;
+    margin : 20px;
+    padding : 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*
+li:nth-child(odd) {
+    font-weight:bold;
+}*/
+
+.song:hover {
+    font-weight:bold;
+    padding: 1rem;
+    background-color : #F1F785;
+}
