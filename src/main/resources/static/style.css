@@ -1,25 +1,30 @@
-div {
-    background-color : #A8D1D1;
-    padding: 1rem;
+h1 {
+  text-align: center;
+  padding: 30px;
+  background-color: #A8D1D1;
+}
+.rankings {
+  padding: 20px;
+  margin-bottom: 16px;
+  background-color: #FD8A8A;
+}
+.container {
+  position: relative;
+}
+.container:hover {
+  transform: scale(1.02);
+  font-weight: bold;
 }
 
-.song {
-    background-color : #FD8A8A;
-    margin : 20px;
-    padding : 20px;
+a {
+  color: white;
 }
 
-li {
-    list-style-type: none;
-}
-
-/*
-li:nth-child(odd) {
-    font-weight:bold;
-}*/
-
-.song:hover {
-    font-weight:bold;
-    padding: 1rem;
-    background-color : #F1F785;
+.song-title {
+  position: absolute;
+  width: 568px;
+  bottom: 5px;
+  padding: 16px;
+  text-align: center;
+  background-color: rgba(0,0,0, 0.5);
 }
